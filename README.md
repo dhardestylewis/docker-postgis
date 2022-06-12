@@ -2,7 +2,7 @@
 
 [![Build Status](https://github.com/postgis/docker-postgis/workflows/Docker%20PostGIS%20CI/badge.svg)](https://github.com/postgis/docker-postgis/actions) [![Join the chat at https://gitter.im/postgis/docker-postgis](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/postgis/docker-postgis?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Tag 14-3.2-gdalogr of this Docker image includes support for the following 3 PostgreSQL - GDAL/OGR translators:
+`./14-3.2-gdalogr` includes support for the following 3 PostgreSQL - GDAL/OGR translators:
    - `raster2pgsql` : to create a PostgreSQL script to add rasters to a PostgreSQL table
    - `shp2pgsql` : to create a PostgreSQL script to add features from a Shapefile to a PostgreSQL table
    - `pgsql2shp` : to create a Shapefile from an existing PostgreSQL table
