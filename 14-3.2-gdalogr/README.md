@@ -1,6 +1,11 @@
-# postgis/postgis
+# postgis/postgis:14-3.2-gdalogr
 
 [![Build Status](https://github.com/postgis/docker-postgis/workflows/Docker%20PostGIS%20CI/badge.svg)](https://github.com/postgis/docker-postgis/actions) [![Join the chat at https://gitter.im/postgis/docker-postgis](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/postgis/docker-postgis?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+`./14-3.2-gdalogr` includes support for the following 3 PostgreSQL - GDAL/OGR translators:
+   - `raster2pgsql` : to create a PostgreSQL script to add rasters to a PostgreSQL table
+   - `shp2pgsql` : to create a PostgreSQL script to add features from a Shapefile to a PostgreSQL table
+   - `pgsql2shp` : to create a Shapefile from an existing PostgreSQL table
 
 The `postgis/postgis` image provides tags for running Postgres with [PostGIS](http://postgis.net/) extensions installed. This image is based on the official [`postgres`](https://registry.hub.docker.com/_/postgres/) image and provides debian and alpine variants for PostGIS both 2.5.x and 3.2.x for each supported version of Postgres (9.6, 10, 11, 12, 13 and 14).  Additionally, an image version is provided which is built from the latest version of Postgres (13) with versions of PostGIS and its dependencies built from their respective master branches.
 
